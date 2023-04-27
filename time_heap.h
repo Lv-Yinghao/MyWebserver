@@ -10,6 +10,7 @@ using std::exception;
 
 class http_conn;
 
+//定时器结构体
 class heap_timer{
 public:
     heap_timer(int delay){
