@@ -1,0 +1,61 @@
+- request:
+    - url: http://192.168.179.128:9006/3
+      method: post
+      headers:
+        Content-Length: '25'
+        Content-Type: application/x-www-form-urlencoded
+        Connection: keep-alive
+        Host: 192.168.179.128:9006
+      data:
+        user: "root"
+        password: "123456"
+
+    - url: http://192.168.179.128:9006/3
+      method: post
+      headers:
+        Content-Length: '25'
+        Content-Type: application/x-www-form-urlencoded
+        Connection: keep-alive
+        Host: 192.168.179.128:9006
+      data:
+        user: "oxzp"
+        password: "123456"
+
+    - url: http://192.168.179.128:9006/2
+      method: post
+      headers:
+        Content-Length: '25'
+        Content-Type: application/x-www-form-urlencoded
+        Connection: keep-alive
+        Host: 192.168.179.128:9006
+      data:
+        user: "root"
+        password: "123455"
+
+    - url: http://192.168.179.128:9006/2
+      method: post
+      headers:
+        Content-Length: '25'
+        Content-Type: application/x-www-form-urlencoded
+        Connection: keep-alive
+        Host: 192.168.179.128:9006
+      data:
+        user: "root"
+        password: "123456"
+
+    - url: http://192.168.179.128:9006/5
+      method: post
+      headers:
+        Content-Length: '0'
+        Content-Type: application/x-www-form-urlencoded
+        Connection: keep-alive
+        Host: 192.168.179.128:9006
+
+    - url: http://192.168.179.128:9006/6
+      method: post
+      headers:
+        Content-Length: '0'
+        Content-Type: application/x-www-form-urlencoded
+        Connection: keep-alive
+        Host: 192.168.179.128:9006
+
