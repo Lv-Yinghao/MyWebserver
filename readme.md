@@ -19,15 +19,27 @@
 
 ### 注册演示
 
+![注册演示](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/ef83ba53-5c4d-49a4-9151-a8222d419307)
+
+
 ### 登录演示
+
+![登录演示](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/27e2a483-9620-4359-940f-4ce38b802055)
+
 
 ### 请求图片文件演示
 
+![请求图片演示](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/29ae889a-ec9f-43e1-b331-4f93adfdafcf)
+
 ### 请求视频文件演示
+
+![请求视频演示](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/dbcf2036-fa45-4a56-a757-cfad37b7457a)
 
 ## 测试环节
 
-本项目的测试包括功能测试，性能测试，安全性测试，兼容性测试和易用性测试以及UI测试六部分。主要的测试目标在于项目的登录和注册以及访问资源这两项和核心功能。下图是我绘制的测试用例的一份思维导图。![Webserver测试用例](C:\Users\lvyinghao\Desktop\Webserver测试用例.jpg)
+本项目的测试包括功能测试，性能测试，安全性测试，兼容性测试和易用性测试以及UI测试六部分。主要的测试目标在于项目的登录和注册以及访问资源这两项和核心功能。下图是我绘制的测试用例的一份思维导图。
+
+![Webserver测试用例](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/74766295-5fd8-44db-8156-236fcf17424a)
 
 ### 功能测试
 
@@ -49,19 +61,19 @@
 
 接口测试结果：
 
-![接口测试结果](C:\Users\lvyinghao\Desktop\接口测试结果.png)
+![接口测试结果](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/62705229-6c32-4c7f-bf38-c6acaa782dbf)
 
 登录功能测试结果：
 
-![注册UI自动化测试结果](C:\Users\lvyinghao\Desktop\注册UI自动化测试结果.png)
+![登录UI自动化测试结果](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/c79f7146-5eb4-4e91-98b1-cc12cee6103e)
 
 注册功能测试结果：
 
-![登录UI自动化测试结果](C:\Users\lvyinghao\Desktop\登录UI自动化测试结果.png)
+![注册UI自动化测试结果](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/7cba5515-9a06-4221-99fa-4f441a088541)
 
 采用allure插件输出测试报告：
 
-![allure测试报告](C:\Users\lvyinghao\Desktop\allure测试报告.png)
+![allure测试报告](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/52d8a97e-da8b-4952-a533-00ba31f4e094)
 
 ### 压力测试
 
@@ -69,7 +81,7 @@
 
 有关浏览器响应时间的测试，可以根据浏览器的开发者模式中直接观察到具体结果，所有响应的耗时都在10ms以内，并发量提高响应时间并无明显变化。
 
-![响应时间](C:\Users\lvyinghao\Desktop\响应时间.png)
+![响应时间](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/1f0ef4ef-bcb1-47ef-87bc-d590ccaeb2ee)
 
 有关并发量的测试，这里采用的工具是Webbench，使用起来非常简单。
 
@@ -77,9 +89,11 @@
 
 LT模式测试结果：
 
-![LT测试结果](C:\Users\lvyinghao\Desktop\LT测试结果.png)
+![LT测试结果](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/273ba0a6-a118-4adc-af5e-6c0bcce19c13)
 
-ET模式测试结果：![ET测试结果](C:\Users\lvyinghao\Desktop\ET测试结果.png)
+ET模式测试结果：
+
+![ET测试结果](https://github.com/Lv-Yinghao/MyWebserver/assets/76142149/1f900478-5357-47de-8906-05a6eee97ff2)
 
 可以发现相较于LT模式，ET模式的并发有明显提高。
 
